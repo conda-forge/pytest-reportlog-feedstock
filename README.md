@@ -5,11 +5,9 @@ Home: https://github.com/pytest-dev/pytest-reportlog
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-reportlog-feedstock/blob/master/LICENSE.txt)
 
 Summary: Replacement for the --resultlog option, focused in simplicity and extensibility
-
-
 
 Current build status
 ====================
