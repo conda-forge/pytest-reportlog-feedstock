@@ -1,5 +1,5 @@
 {% set name = "pytest-reportlog" %}
-{% set version = "0.1.2" %}
+{% set version = "1.0.0" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b1f71495699e398a40578c0ff3e73ec01b5a192d108e2bea73dbc7b3fa1f2595
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 75aec3a92bb53456c3e028605a636579d26f31c6f1e035ad9f706c203cfcb74e
 
 build:
   number: 0
