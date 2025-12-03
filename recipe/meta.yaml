@@ -32,6 +32,8 @@ test:
   commands:
     - pip check
   requires:
+  requires:
+    - python {{ python_min }}
     - pip
 
 about:
