@@ -1,5 +1,6 @@
 {% set name = "pytest-reportlog" %}
 {% set version = "1.0.0" %}
+{% set python_min = "3.10" %}
 
 
 package:
